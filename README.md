@@ -77,5 +77,5 @@ To run the Scheduler Simulator, make sure you have the following prerequisites i
 
 ## Screenshots
 
-![main screen](screenshots/main screen.png)
-![simulation screen](screenshots/simulation screen.png)
+![main screen](https://github.com/abdelrhmankadry/Saturn-Scheduler/blob/main/screenshots/main%20screen.png?raw=true)
+![simulation screen](https://github.com/abdelrhmankadry/Saturn-Scheduler/blob/main/screenshots/simulation%20screen.png?raw=true)
