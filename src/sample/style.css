@@ -1,0 +1,68 @@
+
+
+.table-column{
+    -fx-background-color: #F7BF00;
+    -fx-border-color: #2F3C73;
+    -fx-column-header-background: #2F3C73;
+}
+
+.table-view .column-header {
+    -fx-background-color: #F69100;
+    -fx-min-width:87;
+
+}
+.table-view{
+    -fx-border-color: #2F3C73;
+    -fx-background-color: #2F3C73;
+
+}
+.table-view .filler, .table-view-background .filler{
+-fx-background-color: #2F3C73;
+}
+
+
+
+
+.scroll-bar:horizontal, .scroll-bar:vertical{
+    -fx-background-color:transparent;
+}
+
+.increment-button, .decrement-button {
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+}
+
+.scroll-bar:horizontal .track,
+.scroll-bar:vertical .track{
+    -fx-background-color: transparent;
+    -fx-border-color: transparent;
+    -fx-background-radius: 0em;
+}
+
+.scroll-bar:horizontal .thumb,
+.scroll-bar:vertical .thumb {
+    -fx-background-color: #4A568C;
+    -fx-background-radius: 5em;
+}
+.scroll-pane > .corner {
+      -fx-background-color: black;
+}
+
+.table-view .column-header .filler,
+.table-view .column-header-background .filler {
+    -fx-background-color: #2F3C73;
+}
+
+.choice-box .context-menu { -fx-background-color: #2F3C73; }
+// Focused item background color in the list
+.choice-box .menu-item:focused { -fx-background-color: orange; }
+// Text color of non-focused items in the list
+.choice-box .menu-item > .label { -fx-text-fill: #F69100; }
+// Text color of focused item in the list
+.choice-box .menu-item:focused > .label { -fx-text-fill: #2F3C73; }
+
+.choice-box > .label { -fx-text-fill: #F69100; }
+
+.scroll-pane{
+    -fx-fit-to-width: true;
+}

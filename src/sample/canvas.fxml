@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<Pane fx:id="parent" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.canvas.CanvasController">
+   <children>
+      <ScrollPane fx:id="scroll" prefHeight="400.0" prefWidth="1200.0" vbarPolicy="NEVER">
+         <content>
+            <AnchorPane prefHeight="399.0">
+               <children>
+                  <HBox fx:id="container" layoutX="55.0" layoutY="125.0" prefHeight="100.0" prefWidth="200.0" />
+                  <Text layoutX="33.0" layoutY="331.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*Average Waiting Time: ">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+                  <Text fx:id="averageWaitingTime" layoutX="226.0" layoutY="330.0" strokeType="OUTSIDE" strokeWidth="0.0" text="555">
+                     <font>
+                        <Font size="18.0" />
+                     </font>
+                  </Text>
+               </children>
+            </AnchorPane>
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

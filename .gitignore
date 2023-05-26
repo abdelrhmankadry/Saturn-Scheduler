@@ -1,0 +1,24 @@
+# Compiled class files
+*.class
+
+# Package and distribution files
+*.jar
+*.war
+*.ear
+
+# IDE-specific files and folders
+.idea/
+.vscode/
+
+# Build output
+/target/
+/out/
+
+# Dependency directories
+/lib/
+/libs/
+
+# Log files
+*.log
+
+#others
